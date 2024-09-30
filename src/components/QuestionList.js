@@ -47,7 +47,7 @@ function QuestionList({ questions, setQuestions }) {
             <label>
               Correct Answer:
               <select
-                value={question.correctIndex}
+                //value={question.correctIndex}
                 onChange={(e) => handleCorrectAnswerChange(question.id, parseInt(e.target.value))}
               >
                 {question.answers.map((_, index) => (
